@@ -20,7 +20,7 @@
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/styles.css" />
 
-    <title>Responsive coffee website - Bedimcode</title>
+    <title>Responsive coffee website</title>
   </head>
   <body>
     <!--==================== HEADER ====================-->
@@ -36,7 +36,7 @@
         <div class="nav__menu">
           <ul class="nav__list">
             <li class="nav__item">
-              <a href="#home" class="nav__link">
+              <a href="#home" class="nav__link active-link">
                 <i class="ri-home-5-fill"></i>
                 <span>Home</span>
               </a>
@@ -265,6 +265,12 @@
     <!--==================== FOOTER ====================-->
     <footer class="footer">
       <div class="footer__bg">
+        <img
+          src="assets/img/coffee-beans-bg.png"
+          alt="bg image"
+          class="footer__bg-img"
+        />
+
         <div class="footer__container container grid">
           <div class="footer__data grid">
             <div>
@@ -292,11 +298,46 @@
               </p>
             </form>
           </div>
+
+          <div class="footer__content grid">
+            <div class="footer__social">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="footer__social-link"
+              >
+                <i class="ri-facebook-fill"></i>
+              </a>
+
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="footer__social-link"
+              >
+                <i class="ri-instagram-fill"></i>
+              </a>
+
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                class="footer__social-link"
+              >
+                <i class="ri-twitter-fill"></i>
+              </a>
+            </div>
+
+            <span class="footer__copy">
+              &#169; Copyright All rights reserved
+            </span>
+          </div>
         </div>
       </div>
     </footer>
 
     <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
 
     <!--=============== SCROLLREVEAL ===============-->
     <script src="assets/js/scrollreveal.min.js"></script>
